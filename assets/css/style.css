@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------- Colours */
+
+#info-teaser {
+    background: orange;
+    height: 400px;
+}
+
+#hero-image {
+    background: red;
+    height: 400px;
+}
+
+#social-links {
+    background: brown;
+    height: 200px;
+}
+
+#location-time {
+    background: crimson;
+    height: 200px;
+}
+
+#comp-reg {
+    background: darkred;
+    height: 200px;
+}
+
+/* --------------------- Fonts and general styles */
+
+/* --------------------- Header */
+
+/* --------------------- Hero Image */
+
+/* --------------------- Footer */
+
+/* --------------------- Buttons */

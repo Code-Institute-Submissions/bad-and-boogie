@@ -12,8 +12,8 @@
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html" id="navbar-logo">Bad & Boogie</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,23 +34,27 @@
 </header>
 
 <section>
-    <article>
-        The content on the left hand side on desktop
-    </article>
-    <div>
-        The main content of the page goes here
-    </div>
+    <div class="row">
+        <article class="d-none d-lg-block col-lg-4" id="info-teaser">
+            The content on the left hand side on desktop
+        </article>
+        <div class="col-lg-8" id="hero-image">
+            The main content of the page goes here
+        </div>
+    </div> <!-- row -->
 </section>
 
 <footer>
-    <div> <!-- social links -->
-    </div>
-    The footer and social links go here 
-    <div> <!-- Location & time -->
-    </div>
+    <div class="row">
+        <div class="col-12 col-md-4" id="social-links"> <!-- social links -->
+        </div>
 
-    <div> <!-- Competition & registration -->
-    </div>
+        <div class="col-6 col-md-4" id="location-time"> <!-- Location & time -->
+        </div>
+
+        <div class="col-6 col-md-4" id="comp-reg"> <!-- Competition & registration -->
+        </div>
+    </div> <!-- row -->
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
