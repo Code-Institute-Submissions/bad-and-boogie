@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    overflow-x: hidden;
+	width: 100%;
+	position: relative;
 }
 
 /* --------------------- Colours */
@@ -31,6 +40,8 @@ body {
 }
 
 /* --------------------- Fonts and general styles */
+/* font-family: 'Quicksand', sans-serif; for headers */
+/* font-family: 'Nanum Gothic', sans-serif; for general */
 
 /* --------------------- Header */
 
