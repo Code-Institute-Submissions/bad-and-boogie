@@ -41,6 +41,14 @@ body {
 
 /* --------------------- Fonts and general styles */
 /* font-family: 'Quicksand', sans-serif; for headers */
+#navbar-logo {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 26px;
+}
+
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+}
 /* font-family: 'Nanum Gothic', sans-serif; for general */
 
 /* --------------------- Header */
