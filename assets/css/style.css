@@ -142,6 +142,69 @@ footer p {
 /* --------------------- Buttons */
 
 .btn--red {
+    position: relative;
     background: #A82830;
     color: #E8E8E8;
+    border-color: #802830;
+}
+
+.btn--red:hover {
+    background: #D05860;
+    border-color: #D05860;    
+}
+
+.btn--red::before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #E8E8E8;
+    height: 90%;
+    width: 65%;
+    top: 10%;
+    right: 5%;
+    transform: scale(0, 1);
+    transition: 200ms;
+}
+
+.btn--red::after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #E8E8E8;
+    height: 90%;
+    width: 65%;
+    bottom: 10%;
+    left: 5%;
+    transform: scale(0, 1);
+    transition: 200ms;
+}
+
+.btn--red:hover::before,
+.btn--red:hover::after {
+    transform: scale(1, 1);
+}
+
+div .btn--red:active,
+div .btn--red:focus {
+    outline: none;
+    box-shadow: none;
+    background: #802830;
+}
+
+/* removing the changing active and focus effects */
+.btn-info:not(:disabled):not(.disabled).active, 
+.btn-info:not(:disabled):not(.disabled):active, 
+.show>.btn-info.dropdown-toggle, 
+.btn-info:not(:disabled):not(.disabled).active:focus, 
+.btn-info:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-info.dropdown-toggle:focus {
+    color: #E8E8E8;
+    background: #802830;
+    border-color: #802830;
+    box-shadow: none;
+}
+
+.btn-info.focus, .btn-info:focus {
+    outline: none;
+    box-shadow: none;
+    background: #802830;
+    border-color: #802830;
 }
