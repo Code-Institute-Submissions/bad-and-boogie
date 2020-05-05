@@ -140,3 +140,8 @@ footer p {
 
 
 /* --------------------- Buttons */
+
+.btn--red {
+    background: #A82830;
+    color: #E8E8E8;
+}
