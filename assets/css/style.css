@@ -30,17 +30,12 @@ body {
     height: 60vh;
 }
 
-#social-links {
+#social-links,
+#location-time,
+#comp-reg {
     background: #302020;
 }
 
-#location-time {
-    background: crimson;
-}
-
-#comp-reg {
-    background: darkred;
-}
 
 /* --------------------- Fonts and general styles */
 /* font-family: 'Quicksand', sans-serif; for headers */
@@ -64,6 +59,30 @@ body {
 #navbar-logo,
 .nav-item a {
     color: white;
+    transition: 200ms;
+    position: relative;
+}
+
+#navbar-logo:hover,
+.nav-item a:hover {
+    color: #C83040;
+}
+
+#navbar-logo::before,
+.nav-item a::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    bottom: 10%;
+    border-bottom: 2px solid #C83040;
+    transition: 200ms;
+    transform: scale(0, 1);
+}
+
+#navbar-logo:hover::before,
+.nav-item a:hover::before {
+    transform: scale(1, 1);
 }
 
 /* --------------------- Hero Image */
@@ -75,6 +94,7 @@ body {
     color: white;
     margin: 2.5rem;
     font-size: 40px;
+    transition: 200ms;
 }
 
 .divider {
@@ -82,6 +102,9 @@ body {
     width: 50%;
 }
 
+#social-links a:hover {
+    color: #C83040;
+}
 
 
 /* --------------------- Buttons */
