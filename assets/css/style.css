@@ -30,10 +30,14 @@ body {
     height: 60vh;
 }
 
-#social-links,
+#social-links {
+    background: #302020;
+}
+
+
 #location-time,
 #comp-reg {
-    background: #302020;
+    background: #E8E8E8;
 }
 
 
@@ -48,17 +52,20 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 /* font-family: 'Nanum Gothic', sans-serif; for general */
 
 /* --------------------- Header */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 #navbar-logo,
 .nav-item a {
-    color: white;
+    color: #E8E8E8;
     transition: 200ms;
     position: relative;
 }
@@ -80,30 +87,55 @@ body {
     transform: scale(0, 1);
 }
 
+.nav-item a::before {
+    width: 40%;
+}
+
 #navbar-logo:hover::before,
 .nav-item a:hover::before {
     transform: scale(1, 1);
 }
 
+.custom-toggler {
+	border-color: #302020; 
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 232, 232, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+
 /* --------------------- Hero Image */
 
-/* --------------------- Footer */
-#social-links a,
+/* --------------------- articles */
 #location-time i,
 #comp-reg i {
-    color: white;
+    color: #302020;
+    margin: 2.5rem;
+    font-size: 40px;
+    transition: 200ms;
+}
+
+/* --------------------- Footer */
+#social-links a {
+    color: #E8E8E8;
     margin: 2.5rem;
     font-size: 40px;
     transition: 200ms;
 }
 
 .divider {
-    background: white;
+    background: #E8E8E8;
     width: 50%;
 }
 
 #social-links a:hover {
     color: #C83040;
+}
+
+footer p {
+    color: #E8E8E8;
 }
 
 
