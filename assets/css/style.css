@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand&display=swap');
 
+html {
+position: relative;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,29 +18,28 @@ body {
 
 /* --------------------- Colours */
 
+#navbar-bg {
+    background: #302020;
+}
+
 #info-teaser {
     background: orange;
-    height: 400px;
 }
 
 #hero-image {
-    background: red;
-    height: 400px;
+    height: 60vh;
 }
 
 #social-links {
-    background: brown;
-    height: 200px;
+    background: #302020;
 }
 
 #location-time {
     background: crimson;
-    height: 200px;
 }
 
 #comp-reg {
     background: darkred;
-    height: 200px;
 }
 
 /* --------------------- Fonts and general styles */
@@ -58,8 +61,27 @@ body {
 
 /* --------------------- Header */
 
+#navbar-logo,
+.nav-item a {
+    color: white;
+}
+
 /* --------------------- Hero Image */
 
 /* --------------------- Footer */
+#social-links a,
+#location-time i,
+#comp-reg i {
+    color: white;
+    margin: 2.5rem;
+    font-size: 40px;
+}
+
+.divider {
+    background: white;
+    width: 50%;
+}
+
+
 
 /* --------------------- Buttons */
