@@ -119,7 +119,7 @@ h1, h3, p {
     position: absolute;
     content: '';
     background: url("/assets/images/ellen.JPG") no-repeat center center;
-    background-size: 115%;
+    background-size: cover;
     height: 65vh;
     width: 40vw;
     right: 0;
@@ -129,6 +129,12 @@ h1, h3, p {
     filter: opacity(.8);
     transform: scale(1, 1);
     transition: 200ms;
+}
+
+@media screen and (max-width: 960px) {
+    #hero-image::before {
+        width: 70%;
+    }
 }
 
 #hero-image::after {
