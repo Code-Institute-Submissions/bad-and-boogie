@@ -323,3 +323,13 @@ div .btn--red:focus {
 span a:hover::before {
     transform: scale(1, 1);
 }
+
+/* ----------------- Competition page ------------- */
+
+#competition-image {
+    height: 60vh;
+    width: 100%;
+    background: url("/assets/images/damon.JPG") no-repeat center center;
+    background-position-y: 10%;
+    background-size: 100%;
+}
