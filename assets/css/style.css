@@ -51,6 +51,10 @@ body {
 body, a, li, p {
     font-family: 'Nanum Gothic', sans-serif;
 }
+
+h1, h3, p {
+    color: #302020;
+}
 /* font-family: 'Nanum Gothic', sans-serif; for general */
 
 /* --------------------- Header */
@@ -273,3 +277,16 @@ div .btn--red:focus {
     margin: 0;
     padding: 0;
 }
+
+/* about text */
+.about-text {
+    padding-top: 4vh;
+}
+
+#sidekick-image {
+    height: 50vh;
+    width: 100%;
+    background: url("/assets/images/phil.JPG") no-repeat center center;
+    background-size: 100%;
+}
+
