@@ -55,6 +55,18 @@ body, a, li, p {
 h1, h3, h5, p {
     color: #302020;
 }
+
+a {
+    color: #C83040;
+    position: relative;
+}
+
+a:hover {
+    color: #802830;
+    text-decoration: none;
+}
+
+
 /* font-family: 'Nanum Gothic', sans-serif; for general */
 
 /* --------------------- Header */
@@ -296,3 +308,18 @@ div .btn--red:focus {
     background-size: 100%;
 }
 
+/* ----------------- contact page ---------------------- */
+ span a::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    bottom: -10%;
+    border-bottom: 1px solid #C83040;
+    transition: 200ms;
+    transform: scale(0, 1);
+}
+
+span a:hover::before {
+    transform: scale(1, 1);
+}
