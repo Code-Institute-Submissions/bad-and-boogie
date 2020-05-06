@@ -44,7 +44,7 @@ body {
     font-size: 26px;
 }
 
-.nav-link, h3 {
+.nav-link, h3, h5 {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -52,7 +52,7 @@ body, a, li, p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-h1, h3, p {
+h1, h3, h5, p {
     color: #302020;
 }
 /* font-family: 'Nanum Gothic', sans-serif; for general */
