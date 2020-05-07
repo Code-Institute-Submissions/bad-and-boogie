@@ -3,15 +3,26 @@
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
+
+This project is made to present a dance event in Stockholm, Sweden. It is made to create interest and be informing about the most important details of the event (such as date and time).
+Navigation is made easy to avoid users having to dig for information, and basic hover animations have been added to make the site feel more interactive without adding unnecessary features.
  
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### User Stories
+- As John, I want to find out when and where the event is so I can go and watch the competition
+- As Eva, I want to know what categories there are, and when the sign up deadline is, so I can participate in the competition
+- As Kim, I want to know if the event is family friendly 
+- As a sponsor, I want to know who is behind the event, what the values it represents are, and how to get in touch with the organisers 
+
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+wireframes
+
+![Bad&BoogieWireframe](/assets/images/wireframe.jpeg)
 
 ## Features
 
@@ -26,7 +37,7 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- An add to cart and check-out system
 
 ## Technologies Used
 
