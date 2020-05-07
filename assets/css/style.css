@@ -130,7 +130,7 @@ a:hover {
 #hero-image::before {
     position: absolute;
     content: '';
-    background: url("/assets/images/ellen.JPG") no-repeat center center;
+    background: url("./assets/images/ellen.JPG") no-repeat center center;
     background-size: cover;
     height: 65vh;
     width: 40vw;
