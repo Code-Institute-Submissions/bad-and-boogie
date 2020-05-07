@@ -179,6 +179,12 @@ a:hover {
     z-index: 5;
 }
 
+@media screen and (min-width: 770px) {
+    #banner-container {
+        width: 40vw;
+    }
+}
+
 #banner-heading,
 #banner-text {
     color: #E8E8E8;
