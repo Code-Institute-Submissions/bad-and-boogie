@@ -122,7 +122,7 @@ a:hover {
 
 #hero-image {
     background: #802830;
-    height: 70vh;
+    height: 72vh;
     position: relative;
     overflow: hidden;
 }
@@ -156,7 +156,7 @@ a:hover {
     width: 1000px;
     height: 1000px;
     bottom: -120%;
-    left: -1%;
+    left: -2%;
     border-radius: 50%;
     filter: opacity(.8);
 }
@@ -166,6 +166,22 @@ a:hover {
     top: 5%;
     right: 5%;
     filter: opacity(1);
+}
+
+/* banner text */
+#banner-container {
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    z-index: 5;
+}
+
+#banner-heading,
+#banner-text {
+    color: #E8E8E8;
+    
 }
 
 /* --------------------- info-teaser */
