@@ -26,6 +26,7 @@ body {
     height: 60vh;
 }
 
+body,
 #location-time,
 #comp-reg,
 #info-teaser {
@@ -356,4 +357,14 @@ span a:hover::before {
     background: url("../images/maele.JPG") no-repeat center center;
     background-position-y: 40%;
     background-size: 100%;
+}
+
+/* --------------------- tickets ---------------------- */
+.tickets {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ticket-cards {
+    margin-bottom: 10px;
 }
