@@ -131,7 +131,7 @@ a:hover {
 #hero-image::before {
     position: absolute;
     content: '';
-    background: url("../images/ellen.JPG") no-repeat center center;
+    background: url("../images/ellen_tiny.JPG") no-repeat center center;
     background-size: cover;
     height: 65vh;
     width: 40vw;
@@ -214,26 +214,6 @@ a:hover {
     transition: 200ms;
 }
 
-/* --------------------- Footer */
-#social-links a {
-    color: #E8E8E8;
-    margin: 2.5rem;
-    font-size: 40px;
-    transition: 200ms;
-}
-
-.divider {
-    background: #E8E8E8;
-    width: 50%;
-}
-
-#social-links a:hover {
-    color: #C83040;
-}
-
-footer p {
-    color: #E8E8E8;
-}
 
 
 /* --------------------- Buttons */
@@ -312,7 +292,7 @@ div .btn--red:focus {
 #about-banner {
     width: 100%;
     height: 30vh;
-    background: url("../images/threepeople.JPG") no-repeat center center;
+    background: url("../images/threepeople_tiny.JPG") no-repeat center center;
     background-size: 100%;
     overflow: hidden;
     margin: 0;
@@ -327,7 +307,7 @@ div .btn--red:focus {
 #sidekick-image {
     height: 50vh;
     width: 100%;
-    background: url("../images/phil.JPG") no-repeat center center;
+    background: url("../images/phil_tiny.JPG") no-repeat center center;
     background-size: 100%;
 }
 
@@ -352,7 +332,7 @@ span a:hover::before {
 #competition-image {
     height: 60vh;
     width: 100%;
-    background: url("../images/damon.JPG") no-repeat center center;
+    background: url("../images/damon_tiny.JPG") no-repeat center center;
     background-position-y: 10%;
     background-size: 100%;
 }
@@ -360,7 +340,7 @@ span a:hover::before {
 #competition-image-second {
     height: 60vh;
     width: 100%;
-    background: url("../images/maele.JPG") no-repeat center center;
+    background: url("../images/maele_tiny.JPG") no-repeat center center;
     background-position-y: 40%;
     background-size: 100%;
 }
@@ -369,7 +349,7 @@ span a:hover::before {
 #ticket-banner {
     width: 100%;
     height: 30vh;
-    background: url("../images/ellen_mario.JPG") no-repeat center center;
+    background: url("../images/ellen_mario_tiny.JPG") no-repeat center center;
     background-size: 100%;
     background-position-y: 50%;
     overflow: hidden;
@@ -384,4 +364,26 @@ span a:hover::before {
 
 #ticket-cards {
     margin-bottom: 10px;
+}
+
+
+/* --------------------- Footer */
+#social-links a {
+    color: #E8E8E8;
+    margin: 2.5rem;
+    font-size: 40px;
+    transition: 200ms;
+}
+
+.divider {
+    background: #E8E8E8;
+    width: 50%;
+}
+
+#social-links a:hover {
+    color: #C83040;
+}
+
+footer p {
+    color: #E8E8E8;
 }
