@@ -21,7 +21,7 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-Wireframes:
+Here below you can see the wireframe that this project is based on. Some changes were made later in the design process to better suit a responsive site.
 
 ![Bad&BoogieWireframe](/assets/images/wireframe.jpeg)
 
