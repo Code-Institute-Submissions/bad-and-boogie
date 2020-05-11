@@ -93,7 +93,7 @@ a:hover {
     content: '';
     position: absolute;
     height: 100%;
-    width: 60%;
+    width: 80%;
     bottom: 10%;
     border-bottom: 2px solid #C83040;
     transition: 200ms;
@@ -107,6 +107,12 @@ a:hover {
 #navbar-logo:hover::before,
 .nav-item a:hover::before {
     transform: scale(1, 1);
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item a::before {
+        width: 5%;
+    }
 }
 
 .custom-toggler {
@@ -209,7 +215,7 @@ a:hover {
 #location-time i,
 #comp-reg i {
     color: #302020;
-    margin: 2.5rem;
+    margin: 1.5rem;
     font-size: 40px;
     transition: 200ms;
 }
@@ -296,8 +302,8 @@ div .btn--red:focus {
 /*banner image*/
 #about-banner {
     width: 100%;
-    height: 30vh;
-    background: url("../images/threepeople_tiny.JPG") no-repeat center center;
+    height: 45vh;
+    background: url("../images/three_people_tiny.JPG") no-repeat center center;
     background-size: 100%;
     overflow: hidden;
     margin: 0;
@@ -353,7 +359,7 @@ span a:hover::before {
 /* --------------------- tickets ---------------------- */
 #ticket-banner {
     width: 100%;
-    height: 30vh;
+    height: 45vh;
     background: url("../images/ellen_mario_tiny.JPG") no-repeat center center;
     background-size: 100%;
     background-position-y: 50%;
