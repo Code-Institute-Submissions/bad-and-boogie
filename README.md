@@ -29,18 +29,23 @@ Here below you can see the wireframe that this project is based on. Some changes
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
 This project is faily simple and consists of 5 pages that are all linked together (mainly through the navbar).  
+The top of each page is the navbar the links together all the pages. 
+On the contact page there is a contact form that should send an email to the organiser. 
+On the tickets page are four different cards that have a button which should add them to cart. 
+There should also be a check out system. 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
-
+- Navbar - It allows the users to navigate through the pages of the site by clicking the anchor tags on the top of each page. 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Properly set up the contact sheet on contact.html
-- An add to cart and check-out system
+- The add to cart system 
+- Add the check-out system
 
 ## Technologies Used
 
@@ -90,12 +95,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+The pictures on this site was very kindly approved to be used by the Emma Dewita Öberg, you can find her portfolio on https://www.emmadewita.com/ .
+
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from https://www.emmadewita.com/
 
 ### Acknowledgements
 
