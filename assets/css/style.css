@@ -49,11 +49,11 @@ body,
     font-family: 'Quicksand', sans-serif;
 }
 
-body, a, li, p {
+body, a, li, p, h6 {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-h1, h3, h5, p {
+h1, h3, h5, h6, p {
     color: #302020;
 }
 
@@ -212,6 +212,12 @@ a:hover {
     margin: 2.5rem;
     font-size: 40px;
     transition: 200ms;
+}
+
+#location-time h6,
+#comp-reg h6 {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
 }
 
 
