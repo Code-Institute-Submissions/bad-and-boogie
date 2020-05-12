@@ -1,8 +1,4 @@
-# Your Project's Name
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+# Bad & Boogie
 
 This project is made to present a dance event in Stockholm, Sweden. It is made to create interest and be informing about the most important details of the event (such as date and time).
 Navigation is made easy to avoid users having to dig for information, and basic hover animations have been added to make the site feel more interactive without adding unnecessary features.
@@ -110,11 +106,13 @@ The pictures on this site was very kindly approved to be used by the Emma Dewita
 
 
 ### Content
+
 - The text for every section of this website are merely conceptual and ficticious. 
 
 ### Media
+
 - The photos used in this site were obtained from https://www.emmadewita.com/
 
 ### Acknowledgements
 
-- I received inspiration for this project from
+- The initial design of this design was heavily inspired by the hover.css project, although this did not each the final version. 
