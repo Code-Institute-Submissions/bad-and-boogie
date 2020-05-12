@@ -91,18 +91,16 @@ Here below are screenshots of the two views:
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This site was deployed through github pages. The method is listed below. 
+1. Go into the github repository 
+2. Click on the settings button 
+3. Scroll down until you see the Github Pages heading 
+4. Select the master branch on the drop down menu
+5. Press deploy, it will be up after about 10 minutes 
 
 
 ## Credits
-The pictures on this site was very kindly approved to be used by the Emma Dewita Öberg, you can find her portfolio on https://www.emmadewita.com/ .
+The pictures on this site was very kindly approved to be used by Emma Dewita Öberg, you can find her portfolio on https://www.emmadewita.com/ .
 
 
 ### Content
