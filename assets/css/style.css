@@ -95,6 +95,9 @@ a:hover {
 
 /* --------------------- Header */
 
+section {
+    margin-top: 80px; 
+}
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-left: 1rem;
 	padding-right: 1rem;
