@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand&display=swap');
 html {
 	position: relative;
-    min-height: 100vh;
+	min-height: 100vh;
 }
 
 body {
-    position: relative;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-    height: 100%;
-    min-height: 100vh;
+	height: 100%;
+	min-height: 100vh;
 }
 
 #wrapper {
 	overflow-x: hidden;
 	width: 100%;
 	position: relative;
-    height: 100%;
-    min-height: 100vh;
+	height: 100%;
+	min-height: 100vh;
 }
 
 
@@ -45,7 +45,11 @@ body,
 
 
 /* --------------------- Fonts and general styles ----------------------------*/
+
+
 /* font-family: 'Quicksand', sans-serif; for headers */
+
+
 /* font-family: 'Nanum Gothic', sans-serif; for general */
 
 #navbar-logo {
@@ -86,18 +90,18 @@ a:hover {
 	text-decoration: none;
 }
 
-
-
 .about-text p {
-    text-align: justify;
-    justify-content: center;
+	text-align: justify;
+	justify-content: center;
 }
+
 
 /* --------------------- Header */
 
 section {
-    margin-top: 60px; 
+	margin-top: 60px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -246,15 +250,14 @@ section {
 #location-time i,
 #comp-reg i {
 	color: #302020;
-	margin: rem;
 	font-size: 40px;
 	transition: 200ms;
-    padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 #location-time p,
 #comp-reg p {
-    font-size: 1rem;
+	font-size: 1rem;
 	line-height: 1.5;
 	margin-bottom: 1.5rem;
 }
@@ -273,6 +276,7 @@ section {
 	background: #D05860;
 	border-color: #D05860;
 }
+
 
 /*.btn--red::before {
 	content: '';
@@ -350,9 +354,9 @@ div .btn--red:focus {
 }
 
 @media screen and (max-width: 600px) {
-    #about-banner {
-        height: 35vh;
-    }
+	#about-banner {
+		height: 35vh;
+	}
 }
 
 
@@ -362,20 +366,18 @@ div .btn--red:focus {
 	padding-top: 4vh;
 }
 
-
 #sidekick-image {
 	height: 40vh;
-    width: 100%;
+	width: 100%;
 	background: url("../images/phil_tiny.JPG") no-repeat center center;
 	background-size: 100%;
 }
+
 @media screen and (min-width: 992px) {
-    #sidekick-image {  
-        width: 90%;  
-    }
+	#sidekick-image {
+		width: 90%;
+	}
 }
-
-
 
 
 /* ----------------- contact page ---------------------- */
@@ -415,14 +417,13 @@ span a:hover::before {
 }
 
 @media screen and (min-width: 992px) {
-    #competition-image,
-    #competition-image-second {
-        width: 90%;
-    }
-
-    #competition-image {    
-        margin-left: 10%;
-    }
+	#competition-image,
+	#competition-image-second {
+		width: 90%;
+	}
+	#competition-image {
+		margin-left: 10%;
+	}
 }
 
 
@@ -440,9 +441,9 @@ span a:hover::before {
 }
 
 @media screen and (max-width: 600px) {
-    #ticket-banner {
-        height: 33vh;
-    }
+	#ticket-banner {
+		height: 33vh;
+	}
 }
 
 .tickets {
@@ -457,15 +458,17 @@ span a:hover::before {
 
 /* --------------------- Footer */
 
+
 /* this is here to prevent the footer from being on top of the lower items of each page */
-section { 
-    margin-bottom: 140px;
+
+section {
+	margin-bottom: 140px;
 }
 
 footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
 
 #social-links a {
