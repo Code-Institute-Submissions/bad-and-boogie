@@ -350,9 +350,14 @@ div .btn--red:focus {
 	padding-top: 4vh;
 }
 
+.about-text-bottom {
+    text-align: justify;
+    justify-content: center;
+}
+
 #sidekick-image {
-	height: 50vh;
-	width: 100%;
+	height: 40vh;
+    width: 90%;
 	background: url("../images/phil_tiny.JPG") no-repeat center center;
 	background-size: 100%;
 }
@@ -379,16 +384,16 @@ span a:hover::before {
 /* ----------------- Competition page ------------- */
 
 #competition-image {
-	height: 60vh;
-	width: 100%;
+	height: 40vh;
+	width: 90%;
 	background: url("../images/damon_tiny.JPG") no-repeat center center;
 	background-position-y: 10%;
 	background-size: 100%;
 }
 
 #competition-image-second {
-	height: 60vh;
-	width: 100%;
+	height: 40vh;
+	width: 90%;
 	background: url("../images/maele_tiny.JPG") no-repeat center center;
 	background-position-y: 40%;
 	background-size: 100%;
