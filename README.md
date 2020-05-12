@@ -86,10 +86,12 @@ The testing of this site was focused on the links, buttons, and responsiveness. 
 This site is built from how it would look in two types of devices and then adapted to the devices in between. 
 It had mobile as the smallest device (mainly an iPhone screen) and desktop as the largest, the breaking point landed on being the iPad as the last device with the mobile view.
 Here below are screenshots of the two views:  
+
 ![Bad&BoogieDesktop](/assets/images/b&b_desktop.jpg)
-This is the desktop view 
+
+
 ![Bad&BoogieMobile](/assets/images/b&b_mobile.jpg)
-This is the mobile view
+
 
 ## Deployment
 
