@@ -261,7 +261,7 @@ a:hover {
 	border-color: #D05860;
 }
 
-.btn--red::before {
+/*.btn--red::before {
 	content: '';
 	position: absolute;
 	border-top: 1px solid #D8D0D0;
@@ -288,7 +288,7 @@ a:hover {
 .btn--red:hover::before,
 .btn--red:hover::after {
 	transform: scale(1, 1);
-}
+} */
 
 div .btn--red:active,
 div .btn--red:focus {
