@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand&display=swap');
 html {
 	position: relative;
+    min-height: 100vh;
 }
 
 body {
+    position: relative;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+    height: 100%;
+    min-height: 100vh;
 }
 
 #wrapper {
 	overflow-x: hidden;
 	width: 100%;
 	position: relative;
+    height: 100%;
+    min-height: 100vh;
 }
 
 
@@ -413,6 +419,17 @@ span a:hover::before {
 
 
 /* --------------------- Footer */
+
+/* this is here to prevent the footer from being on top of the lower items of each page */
+section { 
+    margin-bottom: 140px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
 
 #social-links a {
 	color: #E8E8E8;
