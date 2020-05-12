@@ -44,10 +44,9 @@ body,
 }
 
 
-/* --------------------- Fonts and general styles */
-
-
+/* --------------------- Fonts and general styles ----------------------------*/
 /* font-family: 'Quicksand', sans-serif; for headers */
+/* font-family: 'Nanum Gothic', sans-serif; for general */
 
 #navbar-logo {
 	font-family: 'Quicksand', sans-serif;
@@ -88,8 +87,11 @@ a:hover {
 }
 
 
-/* font-family: 'Nanum Gothic', sans-serif; for general */
 
+.about-text p {
+    text-align: justify;
+    justify-content: center;
+}
 
 /* --------------------- Header */
 
@@ -350,10 +352,6 @@ div .btn--red:focus {
 	padding-top: 4vh;
 }
 
-.about-text-bottom {
-    text-align: justify;
-    justify-content: center;
-}
 
 #sidekick-image {
 	height: 40vh;
@@ -384,19 +382,30 @@ span a:hover::before {
 /* ----------------- Competition page ------------- */
 
 #competition-image {
-	height: 40vh;
-	width: 90%;
+	height: 50vh;
+	width: 100%;
 	background: url("../images/damon_tiny.JPG") no-repeat center center;
 	background-position-y: 10%;
 	background-size: 100%;
 }
 
 #competition-image-second {
-	height: 40vh;
-	width: 90%;
+	height: 50vh;
+	width: 100%;
 	background: url("../images/maele_tiny.JPG") no-repeat center center;
 	background-position-y: 40%;
 	background-size: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    #competition-image,
+    #competition-image-second {
+        width: 90%;
+    }
+
+    #competition-image {    
+        margin-left: 10%;
+    }
 }
 
 
