@@ -235,13 +235,14 @@ a:hover {
 #location-time i,
 #comp-reg i {
 	color: #302020;
-	margin: 1.5rem;
+	margin: rem;
 	font-size: 40px;
 	transition: 200ms;
 }
 
-#location-time h6,
-#comp-reg h6 {
+#location-time p,
+#comp-reg p {
+    font-size: 1rem;
 	line-height: 1.5;
 	margin-bottom: 1.5rem;
 }
