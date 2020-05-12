@@ -96,7 +96,7 @@ a:hover {
 /* --------------------- Header */
 
 section {
-    margin-top: 80px; 
+    margin-top: 60px; 
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-left: 1rem;
@@ -249,6 +249,7 @@ section {
 	margin: rem;
 	font-size: 40px;
 	transition: 200ms;
+    padding-bottom: 1rem;
 }
 
 #location-time p,
@@ -348,6 +349,12 @@ div .btn--red:focus {
 	padding: 0;
 }
 
+@media screen and (max-width: 600px) {
+    #about-banner {
+        height: 35vh;
+    }
+}
+
 
 /* about text */
 
@@ -423,6 +430,12 @@ span a:hover::before {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #ticket-banner {
+        height: 33vh;
+    }
 }
 
 .tickets {
