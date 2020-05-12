@@ -365,10 +365,17 @@ div .btn--red:focus {
 
 #sidekick-image {
 	height: 40vh;
-    width: 90%;
+    width: 100%;
 	background: url("../images/phil_tiny.JPG") no-repeat center center;
 	background-size: 100%;
 }
+@media screen and (min-width: 992px) {
+    #sidekick-image {  
+        width: 90%;  
+    }
+}
+
+
 
 
 /* ----------------- contact page ---------------------- */
