@@ -274,38 +274,8 @@ section {
 
 .btn--red:hover {
 	background: #D05860;
-	border-color: #D05860;
+	border-color: transparent;
 }
-
-
-/*.btn--red::before {
-	content: '';
-	position: absolute;
-	border-top: 1px solid #D8D0D0;
-	height: 90%;
-	width: 65%;
-	top: 10%;
-	right: 5%;
-	transform: scale(0, 1);
-	transition: 200ms;
-}
-
-.btn--red::after {
-	content: '';
-	position: absolute;
-	border-bottom: 1px solid #D8D0D0;
-	height: 90%;
-	width: 65%;
-	bottom: 10%;
-	left: 5%;
-	transform: scale(0, 1);
-	transition: 200ms;
-}
-
-.btn--red:hover::before,
-.btn--red:hover::after {
-	transform: scale(1, 1);
-} */
 
 div .btn--red:active,
 div .btn--red:focus {
@@ -325,7 +295,7 @@ div .btn--red:focus {
 .show>.btn-info.dropdown-toggle:focus {
 	color: #E8E8E8;
 	background: #802830;
-	border-color: #802830;
+	border-color: transparent;
 	box-shadow: none;
 }
 
@@ -334,7 +304,7 @@ div .btn--red:focus {
 	outline: none;
 	box-shadow: none;
 	background: #802830;
-	border-color: #802830;
+	border-color: transparent;
 }
 
 
