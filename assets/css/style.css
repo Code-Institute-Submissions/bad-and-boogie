@@ -367,6 +367,13 @@ span a:hover::before {
 	transform: scale(1, 1);
 }
 
+@media screen and (min-width: 765px) {
+    #contact-form form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
 
 /* ----------------- Competition page ------------- */
 
@@ -426,6 +433,7 @@ span a:hover::before {
 }
 
 @media screen and (min-width: 765px) and (height: 1024px) {
+    /* tickets in iPad size */ 
     .tickets .card-body {
         min-height: 226px;
     }
