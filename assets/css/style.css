@@ -425,6 +425,19 @@ span a:hover::before {
 	margin-bottom: 10px;
 }
 
+@media screen and (min-width: 765px) and (height: 1024px) {
+    .tickets .card-body {
+        min-height: 226px;
+    }
+
+    .tickets .card-body .btn--red {
+        position: absolute;
+        bottom: 10%;
+        left: 30%;
+        right: 30%;
+    }
+}
+
 
 /* --------------------- Footer */
 
