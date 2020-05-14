@@ -192,8 +192,9 @@ section {
 	background: #C83040;
 	width: 1000px;
 	height: 1000px;
-	bottom: -120%;
-	left: -2%;
+    transform: scale(1.1);
+	bottom: -110%;
+	left: 1%;
 	border-radius: 50%;
 	filter: opacity(.8);
 }
@@ -205,6 +206,68 @@ section {
 	filter: opacity(1);
 }
 
+/* Hero image responsiveness */
+
+@media screen and (max-width: 1025px) and (min-height: 1300px) {
+    #hero-image {
+        height: 60vh;
+        margin-bottom: 50px;
+    }
+
+    #hero-image::before {
+        height: 45vh;
+        width: 45vh;
+    }
+
+    #hero-image::after {
+        bottom: -90%;
+        left: -8%;
+    }
+}
+
+@media screen and (min-width: 765px) and (max-width: 1000px) {
+    #hero-image {
+        height: 52vh;
+    }
+    
+    #hero-image::before {
+        height: 50vh;
+        width: 50vh;
+    }
+
+    #hero-image::after {
+        bottom: -140%;
+        left: -6%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #hero-image {
+        height: 50vh;
+    }
+
+    #hero-image::before {
+        height: 45vh;
+    }
+
+    #hero-image::after {
+        bottom: -150%;
+        left: -54%;
+        transform: scale(.5);
+    }
+}
+
+@media screen and (max-width: 500px) and (min-height: 750px) {
+    #hero-image::before {
+        height: 40vh;
+        width: 80%;
+    }
+
+    #hero-image::after {
+        bottom: -140%;
+        left: -60%;
+    }
+}
 
 /* banner text */
 
@@ -260,6 +323,11 @@ section {
 	font-size: 1rem;
 	line-height: 1.5;
 	margin-bottom: 1.5rem;
+}
+
+#location-time a i:hover,
+#comp-reg a i:hover {
+    color: #C83040;
 }
 
 
