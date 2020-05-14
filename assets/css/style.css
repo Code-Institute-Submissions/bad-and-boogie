@@ -550,3 +550,18 @@ footer {
 footer p {
 	color: #E8E8E8;
 }
+
+/* ------------------ General media queries ----------------- */
+@media screen and (max-width: 800px) {
+    #about-banner, 
+    #ticket-banner {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #about-banner, 
+    #ticket-banner {
+        height: 25vh;
+    }
+}
