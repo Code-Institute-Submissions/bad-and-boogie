@@ -114,3 +114,5 @@ The pictures on this site was very kindly approved to be used by Emma Dewita Öb
 ### Acknowledgements
 
 - The initial design of this design was heavily inspired by the hover.css project, although this did not each the final version. 
+
+- The navbar and contact form are based on the default bootstrap components. 
